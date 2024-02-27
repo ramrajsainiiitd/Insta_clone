@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+
+* {
+
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  
+  }
+#main {
+  display: flex;
+}
+#sidebar {
+  width: 244px;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sidebar>img{
+    width: 103px;
+    height: 29px;
+    padding: 40px 0px 0px 24px;
+}
+#sidebar > ul {
+  list-style-type: none;
+  width: 220px;
+  height: 448px;
+  margin-left: 12px;
+
+}
+#sidebar > ul > li {
+    width: 220px;
+    height: 48px;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px 0px 16px;
+}
+#sidebar > ul > li > img {
+  padding: 16px;
+}
+#main_scrollable_container{
+  height: 100vh;
+  background-color: pink;
+  width: 80%;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 10px;
+}
+#main_scrollable_container>ul{
+  padding: 5px;
+  margin: 10px;
+}
+#stories_section{
+    display: flex;
+    width:60%;
+    justify-content: space-between;
+    align-items: center;
+}
+.story_image{
+  display: flex;
+  flex-direction: column;
+  background-image: url("./assets/story_bg_image.svg");
+  width: 66px;
+  height: 66px;
+  justify-content: center;
+  align-items: center;
+}
+.story_image>img{
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.story_image>p{
+  display: flex;
+}
+
+#post{
+  margin: 10px;
+}
